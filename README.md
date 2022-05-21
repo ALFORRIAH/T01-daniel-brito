@@ -27,7 +27,7 @@ O objetivo deste trabalho foi se extrair uma série histórica de densidade de c
 ### Implementação
 O sistema calcula o índice NDVI (Normalized Difference Vegetation Index) e NDCI (Normalized Difference Chlorophyll Index) para o Lago Guaíba e os utiliza como preditores em uma regressão para se estimar as densidades de cianobactérias obtidas no monitoramento da qualidade da água realizado pelo setor de saúde (SISAGUA). Especificamente, foi realizada a análise de um dos pontos de captação da cidade (próximo ao par de coordenadas -30.012175, -51.215679). Trata-se de uma metodologia já adotada em alguns trabalhos<sup>[3, 4, 5](#referências)</sup>, especialmente para monitoramento de clorofila-a.
 
-![Série temporal NDCI - Guaíba](reports%5Cseminario%5Cfigures%5Cndci_animation.gif) ![Série temporal NDVI - Guaíba](reports%5Cseminario%5Cfigures%5CNDVI_animation.gif)
+![Série temporal NDCI - Guaíba](reports%5Cseminario%5Cfigures%5Cndci_animation.gif) [![Série temporal NDVI - Guaíba](reports%5Cseminario%5Cfigures%5CNDVI_animation.gif)](https://github.com/ALFORRIAH/T01-daniel-brito/blob/main/reports/seminario/figures/NDVI_animation.gif)
 
 Os dados foram utilizados como input em um modelo de XGBoost. Mais detalhes sobre o treinamento podem ser conferidos [nesse notebook](notebooks\.ipynb_checkpoints\dob-criando-dataset-checkpoint.ipynb).
 
