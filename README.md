@@ -29,11 +29,17 @@ O sistema calcula o índice NDVI (Normalized Difference Vegetation Index) e NDCI
 
 ![Série temporal NDCI - Guaíba](reports%5Cseminario%5Cfigures%5Cndci_animation.gif) [![Série temporal NDVI - Guaíba](reports%5Cseminario%5Cfigures%5CNDVI_animation.gif)](https://github.com/ALFORRIAH/T01-daniel-brito/blob/main/reports/seminario/figures/NDVI_animation.gif)
 
+![Série temporal NDCI - Guaíba](https://raw.githubusercontent.com/ALFORRIAH/T01-daniel-brito/main/reports/seminario/figures/ndci_animation.gif?token=GHSAT0AAAAAABULEL77ALZWI7SPCYHNHVG6YUJCMTA)
+
+![Série temporal NDVI - Guaíba](https://raw.githubusercontent.com/ALFORRIAH/T01-daniel-brito/main/reports/seminario/figures/NDVI_animation.gif?token=GHSAT0AAAAAABULEL764LLM4NANW56PR6NWYUJCOAQ)
+
 Os dados foram utilizados como input em um modelo de XGBoost. Mais detalhes sobre o treinamento podem ser conferidos [nesse notebook](notebooks\.ipynb_checkpoints\dob-criando-dataset-checkpoint.ipynb).
 
 ### Resultado
 
-<img src="reports%5Cseminario%5Cfigures%5Cts_ciano_00.png" alt="resultado" width="1000"/>
+
+
+<img src="https://raw.githubusercontent.com/ALFORRIAH/T01-daniel-brito/main/reports/seminario/figures/ts_ciano_00.png?token=GHSAT0AAAAAABULEL76PUQP3EWAXRIYNKPIYUJCPBQ" alt="resultado" width="1000"/>
 
 ## Acesso ao projeto
 
@@ -56,8 +62,6 @@ Para se realizar análise da série histórica das concentrações de cianobact�
     - ``fpp3``
     - ``tidyverse``
     - ``lubridate``
-
-![ferramentas utilizadas](reports%5Cseminario%5Cimgs%5Cpipe.jpg)
 
 As seguintes bases de dados foram utilizadas no projeto:
 
